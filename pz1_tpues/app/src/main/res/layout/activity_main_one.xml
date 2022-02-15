@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main_Activity_One">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="corp.petro.pz1_tpues.PZ1_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_pz1"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+</LinearLayout>

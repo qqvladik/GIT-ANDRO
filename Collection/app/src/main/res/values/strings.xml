@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Сборник эктоморфа</string>
+    <string name="day_first_tab">День 1</string>
+    <string name="day_second_tab">День 2</string>
+    <string name="day_third_tab">День 3</string>
+</resources>
