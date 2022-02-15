@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_info"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="1"
+        android:title="Help"
+        app:showAsAction="ifRoom" />
+    <item
+        android:icon="@android:drawable/ic_menu_more"
+        android:orderInCategory="2"
+        android:title="settings"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/item_broke"
+                android:checkable="true"
+                android:orderInCategory="3"
+                android:title="Broke" />
+            <item
+                android:orderInCategory="4"
+                android:title="About us"
+                android:id="@+id/item_about_us"/>
+        </menu>
+    </item>
+
+</menu>

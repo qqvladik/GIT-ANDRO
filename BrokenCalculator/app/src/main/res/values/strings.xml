@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Broken Calculator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">1234567890</string>
+    <string name="mod">%</string>
+    <string name="power">^</string>
+    <string name="clearAll">CE</string>
+    <string name="clear">C</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+</resources>

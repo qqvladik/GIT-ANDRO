@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/MyTheme"
+    tools:context=".InfoFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="8dp"
+            android:text="Данный программный продукт является собственностью PetroCorporation"
+            android:textAlignment="center"
+            android:textSize="@dimen/textInfoSize" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:text="VK:"
+            android:textAlignment="center"
+            android:textSize="@dimen/textInfoSize" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="8dp"
+            android:autoLink="web|phone"
+            android:text="vk.com/piuupiuupiuupiuu"
+            android:textAlignment="center"
+            android:textSize="@dimen/textInfoSize" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:text="Instagram:"
+            android:textAlignment="center"
+            android:textSize="@dimen/textInfoSize" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="8dp"
+            android:autoLink="web|phone"
+            android:text="instagram.com/qqvladik/"
+            android:textAlignment="center"
+            android:textSize="@dimen/textInfoSize" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:text="Twitter:"
+            android:textAlignment="center"
+            android:textSize="@dimen/textInfoSize" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="8dp"
+            android:autoLink="web|phone"
+            android:text="twitter.com/375445313884"
+            android:textAlignment="center"
+            android:textSize="@dimen/textInfoSize" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:text="LinkedIn:"
+            android:textAlignment="center"
+            android:textSize="@dimen/textInfoSize" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:autoLink="web|phone|email"
+            android:text="www.linkedin.com/in/владислав-манкевич-2493ab197"
+            android:textAlignment="center"
+            android:textSize="@dimen/textInfoSize" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:text="Email:"
+            android:textAlignment="center"
+            android:textSize="@dimen/textInfoSize" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="8dp"
+            android:autoLink="web|phone|email"
+            android:text="375445313884@mail.ru"
+            android:textAlignment="center"
+            android:clickable="true"
+            android:textSize="@dimen/textInfoSize" />
+
+
+    </LinearLayout>
+</ScrollView>
